@@ -1,0 +1,21 @@
+body{
+	background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
+}
+*{
+	color: red;
+	text-align: center;
+	text-decoration: none;
+}
+h1{
+	font-family: impact;
+	font-size: 70px;
+	font-style: italic;
+	margin-bottom:15%;
+}
+h2{
+	font-family: Arial Black;
+	font-style: italic;
+	padding: 9px;
+	font-style: normal;
+	text-decoration: none;
+}
