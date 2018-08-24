@@ -18,6 +18,8 @@ h2{
 	font-family: impact;
 	font-style: italic;
 	padding: 9px;
-	font-style: normal;
 	text-decoration: none;
+}
+hover:h2 {
+	color: rgb(0,100,255)
 }
