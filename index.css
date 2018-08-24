@@ -19,6 +19,7 @@ h2{
 	font-style: italic;
 	padding: 9px;
 	text-decoration: none;
+	transition: 1.5s;
 }
 hover:h2 {
 	color: rgb(0,100,255)
