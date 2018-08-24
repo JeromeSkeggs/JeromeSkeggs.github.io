@@ -1,0 +1,166 @@
+body{
+	background-color: white;
+	height: 100%;
+	width: 99%;
+	overflow:hidden;
+	background-opacity: 1;
+	animation: background 0.15s infinite;
+}
+*{
+	color: red;
+	text-align: center;
+	
+}
+
+.mainheader{
+	margin:none;
+	border:none;
+	position: relative;
+	font-family: impact;
+	font-size: 90px;
+	font-style: italic;
+	margin-bottom:7%;
+	animation: animation0 0.15s infinite;
+	
+}
+
+table{
+	position: relative;
+	margin-left:45%;
+	font-family: Helvetica;
+	position: fixed;
+	
+}
+button{
+	padding: 20px;
+	position: relative;
+	background-color: red;
+	color: white;
+	border:none;
+	border-radius:10px;
+	font-size: 20px;
+    animation-name: animation2;
+	animation-duration: 0.15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	transition: 0.75s;
+	
+}
+#demo{
+	position: relative;
+	font-size: 70px;
+	font-family: impact;
+	font-style: italic;
+	margin-bottom: 6%;
+	margin-bottom:7%;
+    animation-name: animation1;
+	animation-duration: 0.15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+#subtraction{
+	padding-left: 22px;
+	padding-right: 23px;
+	overflow:hidden;
+}
+#multiplication{
+	padding-left: 19px;
+	padding-right: 19px;
+	
+}
+@keyframes animation0 {
+	0%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+	50%{
+		color: rgb(0, 200, 255);
+		left: 30px;
+		top: 10px;
+	}
+	100%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+}
+@keyframes animation1 {
+	0%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+	50%{
+		color: rgb(0, 200, 255);
+		left: -5px;
+		top: -5px;
+	}
+	100%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+}
+@keyframes animation2 {
+	0%{
+		background-color: red;
+		left: 0px;
+		top: 0px;
+	}
+	50%{
+		background-color:rgb(0, 200, 255);
+		left: -5px;
+		top: -5px;
+	}	
+	100%{
+		background-color: red;
+		left: 0px;
+		top: 0px;
+	}
+}
+@keyframes animation3 {
+	0%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+	50%{
+		color: rgb(0, 200, 255);
+		left: 50px;
+		top: 10px;
+	}
+	100%{
+		color:red;
+		left: 0px;
+		top: 0px;
+	}
+	
+}
+@keyframes background {
+	0%{
+		
+	}
+	25%{
+		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
+	}
+	50%{
+		background-image: url("http://hastankilambulans.club/wp-content/uploads/2018/05/star-tile-background-star-tile-background-5.jpg");
+	}
+	75%{
+		background-image: url("https://c1.staticflickr.com/3/2444/4081217898_b7bae8fdba_z.jpg?zz=1");
+	}
+	100%{
+		background-image: url("https://img00.deviantart.net/edb2/i/2012/352/6/5/galaxy_texture_2_by_bublla-d5of0iz.png");
+	}
+
+}
+button:hover{
+	padding: 20px;
+	background-color: white;
+	color: red;
+	border:none;
+	border-radius:300px;
+	border-color: red;
+}
