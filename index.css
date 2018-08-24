@@ -23,4 +23,5 @@ h2{
 }
 hover:h2 {
 	color: rgb(0,100,255);
+	font-size: 55px;
 }
