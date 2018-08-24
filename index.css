@@ -22,5 +22,5 @@ h2{
 	transition: 1.5s;
 }
 hover:h2 {
-	color: rgb(0,100,255)
+	color: rgb(0,100,255);
 }
