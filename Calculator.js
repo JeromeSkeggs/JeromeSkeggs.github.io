@@ -140,6 +140,24 @@ function addition() {
 		refresh();
 	}
 }
+function subtraction() {
+	if (space[space.length-2] != "-") {
+		space[i] = " ";
+		i += 1;
+		space[i] = "-";
+		i += 1;
+		space[i] = " ";
+		i += 1;
+		numbset = Math.round(numbset*Math.pow(10,numbcount-1));
+		segments[count] = numbset;
+		count += 1;
+		segments[count] = "-";
+		count += 1;
+		numbset = 0;
+		numbcount = 0;
+		refresh();
+	}
+}
 function multiplication() {
 	if (space[space.length-2] != "X") {
 		space[i] = " ";
