@@ -4,7 +4,7 @@ body{
 	width: 99%;
 	overflow:hidden;
 	background-opacity: 1;
-	animation: background 0.15s infinite;
+	animation: background 0.25s infinite;
 }
 *{
 	color: red;
@@ -140,7 +140,7 @@ button{
 }
 @keyframes background {
 	0%{
-		
+		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
 	}
 	25%{
 		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
