@@ -4,7 +4,7 @@ body{
 	width: 99%;
 	overflow:hidden;
 	background-opacity: 1;
-	animation: background 0.15s infinite;
+	animation: background 0.28s infinite;
 }
 *{
 	color: red;
