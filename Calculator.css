@@ -4,7 +4,7 @@ body{
 	width: 99%;
 	overflow:hidden;
 	background-opacity: 1;
-	animation: background 0.25s infinite;
+	animation: background 0.15s infinite;
 }
 *{
 	color: red;
@@ -142,17 +142,14 @@ button{
 	0%{
 		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
 	}
-	25%{
-		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
-	}
-	50%{
+	33{
 		background-image: url("http://hastankilambulans.club/wp-content/uploads/2018/05/star-tile-background-star-tile-background-5.jpg");
 	}
-	75%{
+	66%{
 		background-image: url("https://c1.staticflickr.com/3/2444/4081217898_b7bae8fdba_z.jpg?zz=1");
 	}
 	100%{
-		background-image: url("https://img00.deviantart.net/edb2/i/2012/352/6/5/galaxy_texture_2_by_bublla-d5of0iz.png");
+		background-image: url("http://a1star.com/images/star--background-seamless-repeating9.jpg");
 	}
 
 }
@@ -164,3 +161,4 @@ button:hover{
 	border-radius:300px;
 	border-color: red;
 }
+
